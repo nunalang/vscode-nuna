@@ -1,0 +1,38 @@
+{
+    "name": "nunalang",
+    "displayName": "누나",
+    "description": "Syntax highlighting for nunalang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "publisher": "nunalang",
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "nuna",
+                "aliases": [
+                    "nuna"
+                ],
+                "extensions": [
+                    ".nuna"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "nuna",
+                "scopeName": "source.nuna",
+                "path": "./syntaxes/nuna.tmLanguage.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nunalang/vscode-nuna"
+    }
+}
