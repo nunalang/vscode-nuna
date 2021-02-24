@@ -1,1 +1,1 @@
-# nunalang
+# vscode-nuna
